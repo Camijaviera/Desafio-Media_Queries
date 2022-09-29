@@ -176,6 +176,12 @@ button:active{
 }
 
 
+.menu li {
+    display: none;
+    list-style-type: none;
+     
+    }
+
 @media (min-width: 576px) {
     .grid-container-grid{
     display: grid;
@@ -251,14 +257,6 @@ button:active{
 
 }
 
-@media (max-width: 575px) {
-    .menu li {
-    display: none;
-    list-style-type: none;
-     
-    }
-   
-}  
 
 @media (min-width: 576px) {
    .menu li {
